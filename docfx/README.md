@@ -42,3 +42,7 @@ DirectoryNotFoundException: Could not find a part of the path '/opt/homebrew/Cel
 - このissueを読んで解決
 - https://github.com/dotnet/docfx/issues/9081
 - docfxのReleaseからtemplateを`/opt/homebrew/Cellar/docfx/2.75.2/libexec/templates`へ移動
+
+<!-- 参考ドキュメント -->
+<!-- https://project-plateau.github.io/AGV-Realtime-Monitoring-System/ -->
+<!-- https://project-plateau.github.io/AGV-Realtime-Monitoring-System/ -->

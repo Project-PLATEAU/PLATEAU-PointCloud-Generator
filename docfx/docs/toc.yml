@@ -2,7 +2,7 @@
   href: ../index.md
 - name: 利用を開始する
   items:
-  - name: 環境構築
+  - name: 環境構築・インストール
     href: install.md
   - name: サンプルシーン実行手順
     href: sample-scene.md
