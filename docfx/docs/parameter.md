@@ -1,6 +1,6 @@
 # 車両・LiDARパラメーター設定
 
-## 1. PLATEAU PCL Generatorメニュー
+## 1. PLATEAU PCL Generatorメニューを開く
 - メニューバーの`PLATEAU PCL Generator`をクリックして、`各種パラメーター設定`をクリックします。
 ![param-menu](../images/param-menu.png) 
 
@@ -10,22 +10,22 @@
 
 ![param-window](../images/param-window.png) 
 
-### パラメーター詳細
+## 3. パラメーター詳細
 
 | パラメーター名 |　詳細 |
 |-|-|
-| LiDAR詳細設定 |　|
+| LiDAR詳細設定 |
 | 周波数（Hz） | LiDARの周波数を設定 |
 | 水平ステップ数 | LiDARの水平ステップ数を設定 |
 | 最小水平角度 | LiDARの最小水平角度を設定 |
 | 最大水平角度 | LiDARの最大水平角度を設定 |
 | 飛距離 | LiDARの最大飛距離を設定 |
 | ガウシアンノイズフィルター | ノイズフィルターの有無を設定 |
-| 車両設定 |　|
+| 車両設定 |
 | 全長 | 車両の全長を設定 |
 | 車幅 | 車両の車幅を設定 |
 | 車高 | 車両の車高を設定 |
-| LiDAR設定 |　|
+| LiDAR設定 |
 | 長さ | 取り付けLiDARの長さを設定 |
 | 高さ | 取り付けLiDARの高さを設定 |
 | 横幅 | 取り付けLiDARの横幅を設定 |

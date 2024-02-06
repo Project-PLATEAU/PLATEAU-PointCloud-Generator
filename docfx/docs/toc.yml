@@ -12,5 +12,5 @@
     href: parameter.md
   - name: ルート設定
     href: route.md
-  - name: 点群出力
+  - name: ルート走行・点群出力
     href: pcd-output.md
