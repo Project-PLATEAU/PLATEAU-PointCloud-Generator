@@ -6,6 +6,8 @@
     href: install.md
   - name: サンプルシーン実行手順
     href: sample-scene.md
+  - name: 3D都市モデル配置手順
+    href: plateau-model.md
   - name: 車両パラメーター変更手順
     href: parameter.md
   - name: ルート設定手順
