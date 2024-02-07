@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title> | PLATEAU PointCloud Generator </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content=" | PLATEAU PointCloud Generator ">
+    
+    
+      <link rel="shortcut icon" href="favicon.ico">
+      <link rel="stylesheet" href="styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="styles/docfx.css">
+      <link rel="stylesheet" href="styles/main.css">
+      <meta property="docfx:navrel" content="toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="PLATEAU PointCloud Generator">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<h2 id="docfx-ドキュメントビルド">docfx ドキュメントビルド</h2>
+<p><code>docfx docfx.json --serve</code></p>
+<h2 id="macosでdocfxのビルド時にエラーが発生">macOSでdocfxのビルド時にエラーが発生</h2>
+<pre><code>% docfx docfx.json 
+Searching custom plugins in directory /opt/homebrew/Cellar/docfx/2.75.2/libexec/...
+No files are found with glob pattern images/**, excluding &lt;none&gt;, under directory &quot;/Users/adamac/work/plateau/PLATEAU-PointCloud-Generator/docfx&quot;
+7 plug-in(s) loaded.
+warning: No template bundles were found, no template will be applied to the documents. 1) Check your docfx.json 2) the templates subfolder exists inside your application folder or your docfx.json directory.
+Building 2 file(s) in TocDocumentProcessor(BuildTocDocument)...
+Building 4 file(s) in ConceptualDocumentProcessor(BuildConceptualDocument=&gt;ValidateConceptualDocumentMetadata)...
+Applying templates to 6 model(s)...
+warning: UnknownContentTypeForTemplate: There is no template processing document type(s): Conceptual,Toc
+XRef map exported.
+
+
+Build succeeded with warning.
+
+    2 warning(s)
+    0 error(s)
+</code></pre>
+<ul>
+<li><code>docfx template list</code>でもエラーが発生</li>
+</ul>
+<pre><code>% docfx template list
+DirectoryNotFoundException: Could not find a part of the path '/opt/homebrew/Cellar/docfx/2.75.2/libexec/templates'.
+  at IntPtr CreateDirectoryHandle(string path, bool ignoreNotFound)                                                                                               
+  at void Init()                                                                                                                                                  
+  at ctor(string directory, FindTransform transform, EnumerationOptions options, bool isNormalized)                                                               
+  at IEnumerable&lt;string&gt; UserDirectories(string directory, string expression, EnumerationOptions options)                                                         
+  at IEnumerable&lt;string&gt; InternalEnumeratePaths(string path, string searchPattern, SearchTarget searchTarget, EnumerationOptions options)                         
+  at string[[]] GetDirectories(string path, string searchPattern, EnumerationOptions enumerationOptions)                                                          
+  at int Execute(CommandContext context) in TemplateCommand.cs:17                                                                                                 
+  at Task&lt;int&gt; Execute(CommandContext context, CommandSettings settings) in Command.cs:25                                                                         
+  at Task&lt;int&gt; Execute(CommandTree leaf, CommandTree tree, CommandContext context, ITypeResolver resolver, IConfiguration configuration) in CommandExecutor.cs:144
+  at async Task&lt;int&gt; Execute(IConfiguration configuration, IEnumerable&lt;string&gt; args) in CommandExecutor.cs:83                                                     
+  at async Task&lt;int&gt; RunAsync(IEnumerable&lt;string&gt; args) in CommandApp.cs:84  
+</code></pre>
+<ul>
+<li>このissueを読んで解決</li>
+<li><a href="https://github.com/dotnet/docfx/issues/9081">https://github.com/dotnet/docfx/issues/9081</a></li>
+<li>docfxのReleaseからtemplateを<code>/opt/homebrew/Cellar/docfx/2.75.2/libexec/templates</code>へ移動</li>
+</ul>
+<!-- 参考ドキュメント -->
+<!-- https://project-plateau.github.io/AGV-Realtime-Monitoring-System/ -->
+<!-- https://project-plateau.github.io/AGV-Realtime-Monitoring-System/ -->
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,327 @@
+{
+  "source_base_path": "/Users/adamac/work/plateau/PLATEAU-PointCloud-Generator/markdown",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "BUILD.md",
+      "output": {
+        ".html": {
+          "relative_path": "BUILD.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/install.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/install.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/parameter.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/parameter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/pcd-output.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/pcd-output.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/plateau-model.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/plateau-model.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/route.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/route.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/sample-scene.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/sample-scene.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/intro.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/intro.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/param-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/param-menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/param-window.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/param-window.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/pcd-output.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/pcd-output.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/pcd-run.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/pcd-run.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/plateau-config.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/plateau-config.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/plateau-copy.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/plateau-copy.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/plateau-load.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/plateau-load.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/plateau-sdk.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/plateau-sdk.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/route-done.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/route-done.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/route-edit.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/route-edit.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/route-name.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/route-name.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/route-path.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/route-path.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/route-start.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/route-start.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sample-driving.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sample-driving.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sample-maishima.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sample-maishima.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sample-openscene.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sample-openscene.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sample-output.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sample-output.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sample-pcd.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sample-pcd.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sample-running.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sample-running.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sample-unityhub.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sample-unityhub.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
