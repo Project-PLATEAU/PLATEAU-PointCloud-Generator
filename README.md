@@ -43,6 +43,8 @@
 | ----------------- | --------|-------------|-----------------------------|
 | ライブラリ       | [PLATEAU SDK for Unity](https://project-plateau.github.io/PLATEAU-SDK-for-Unity/) | 2.3.0 | 3D都市モデルを利用するためのUnityライブラリ |
 | ライブラリ      | [RobotecGPULidar](https://github.com/RobotecAI/RobotecGPULidar) | 0.16.2 | Unity上で3D LiDARのシミュレートを行うライブラリ |
+| ライブラリ      | [Point Cloud Library](https://github.com/PointCloudLibrary/pcl) | 1.14.0 | RobotecGPULidar内の点群処理で利用されるライブラリ |
+| ライブラリ      | [DOTWeen](https://dotween.demigiant.com/) | 1.2.765 | Unityオブジェクトに移動系のアニメーションを付与するライブラリ |
 
 
 ## 6. 動作環境 <!-- 動作環境についての仕様を記載ください。 -->
@@ -56,7 +58,19 @@
 ## 7. 本リポジトリのフォルダ構成 <!-- 本GitHub上のソースファイルの構成を記載ください。 -->
 | フォルダ名 |　詳細 |
 |-|-|
-| Assets/SampleScene | サンプルシーン |
+| Assets/HDRP | シーン内で利用する車両オブジェクトが格納されているフォルダ |
+| Assets/Images | シーン内で利用する画像ファイルが格納されているフォルダ |
+| Assets/Material | シーン内で利用するマテリアルファイルが格納されているフォルダ |
+| Assets/PclSharp | RGLUnityPlugin内で点群処理を行うために利用されるPoint Cloud Libraryが格納されているフォルダ |
+| Assets/RGLUnityPlugin | RobotecGPULidarのライブラリが格納されているフォルダ |
+| Assets/SampleScene | サンプルシーンが格納されているフォルダ |
+| Assets/Scripts | シーン上の点群処理に利用するスクリプトが格納されているフォルダ |
+| Assets/TextMesh Pro | Unityで利用するテキストのフォーマットやレイアウト処理が格納されているフォルダ |
+| Assets/UI | シーン内のUIで利用するコンポーネントが格納されているフォルダ |
+| Assets/WaypointSystem | シーン内のルート設定に関わるスクリプトが格納されているフォルダ |
+| Packages/ | Unityパッケージのマニフェスト、package-lock.jsonが格納されているフォルダ |
+| ProjectSettings/ | Unityプロジェクト設定ファイルが格納されているフォルダ |
+| markdown/ | ドキュメントが記載されているフォルダ |
 
 
 ## 8. ライセンス <!-- 変更せず、そのまま使うこと。 -->
@@ -71,5 +85,5 @@
 - 本リポジトリの利用により生じた損失及び損害等について、国土交通省はいかなる責任も負わないものとします。
 
 ## 10. 参考資料 <!-- 技術検証レポートのURLはアクセンチュアにて記載します。 -->
-- 技術検証レポート: https://xxxxxxxxx
-- PLATEAU WebサイトのUse caseページ「カーボンニュートラル推進支援システム」: https://xxxxxxxx
+- 技術検証レポート: 【URL未設定】
+- PLATEAU WebサイトのUse Caseページ「3D都市モデルとBIMを活用したモビリティ自律運航システム（車両）v2.0」: https://www.mlit.go.jp/plateau/use-case/uc23-17-2/
