@@ -23,8 +23,8 @@
       "default"
     ],
     "globalMetadata": {
-      "_appName": "PLATEAU PointCloud Generator",
-      "_appTitle": "PLATEAU PointCloud Generator",
+      "_appName": "PLATEAU PCL Generator",
+      "_appTitle": "PLATEAU PCL Generator",
       "_enableSearch": false,
       "pdf": false,
       "_disableContribution": true
